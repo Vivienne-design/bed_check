@@ -154,21 +154,21 @@ SPIDER_MAX_RETRY_TIMES = 3  # 每个请求最大重试次数
 # EMAIL_RECEIVER = ""  # 收件人 支持列表，可指定多个
 # EMAIL_SMTPSERVER = "smtp.163.com"  # 邮件服务器 默认为163邮箱
 # # 企业微信报警
-WECHAT_WARNING_URL = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=e9db5f56-ae39-403b-a4dc-12316e66d696"  # 企业微信机器人api
-WECHAT_WARNING_PHONE = "15014787762"  # 报警人 将会在群内@此人, 支持列表，可指定多人
-WECHAT_WARNING_ALL = False  # 是否提示所有人， 默认为False
+# WECHAT_WARNING_URL = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=e9db5f56-ae39-403b-a4dc-12316e66d696"  # 企业微信机器人api
+# WECHAT_WARNING_PHONE = "15014787762"  # 报警人 将会在群内@此人, 支持列表，可指定多人
+# WECHAT_WARNING_ALL = False  # 是否提示所有人， 默认为False
 # QMSG报警
 # QMSG_WARNING_URL = ""  # qmsg机器人api
 # QMSG_WARNING_QQ = ['']  # 指定要接收消息的QQ号或者QQ群。多个以英文逗号分割，例如：12345,12346,支持列表，可指定多人
 # QMSG_WARNING_BOT = ""  # 机器人的QQ号
 # # 时间间隔
 # WARNING_INTERVAL = 3600  # 相同报警的报警时间间隔，防止刷屏; 0表示不去重
-WARNING_LEVEL = "INFO"  # 报警级别， DEBUG / INFO / ERROR
+# WARNING_LEVEL = "INFO"  # 报警级别， DEBUG / INFO / ERROR
 # WARNING_FAILED_COUNT = 1000  # 任务失败数 超过WARNING_FAILED_COUNT则报警
 #
 # LOG_NAME = os.path.basename(os.getcwd())
 # LOG_PATH = "log/%s.log" % LOG_NAME  # log存储路径
-LOG_LEVEL = "INFO"  # 日志级别大小关系为：CRITICAL > ERROR > WARNING > INFO > DEBUG
+# LOG_LEVEL = "INFO"  # 日志级别大小关系为：CRITICAL > ERROR > WARNING > INFO > DEBUG
 # LOG_COLOR = True  # 是否带有颜色
 # LOG_IS_WRITE_TO_CONSOLE = True  # 是否打印到控制台
 # LOG_IS_WRITE_TO_FILE = False  # 是否写文件
